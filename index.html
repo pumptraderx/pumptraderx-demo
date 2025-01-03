@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChainTraderX - The Decentralized Trading Bot</title>
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Press Start 2P', cursive;
+            background-color: #0f0f0f;
+            color: #00ff00;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: #111;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+            color: #00ff00;
+            text-transform: uppercase;
+        }
+
+        .cta-btn {
+            padding: 10px 30px;
+            font-size: 1.5rem;
+            color: #0f0f0f;
+            background-color: #00ff00;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .cta-btn:hover {
+            background-color: #00cc00;
+        }
+
+        section {
+            padding: 60px 20px;
+            text-align: center;
+            background-color: #181818;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            color: #00ff00;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .feature {
+            display: inline-block;
+            width: 30%;
+            margin: 20px;
+            background-color: #222;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+            text-align: left;
+        }
+
+        .feature h3 {
+            font-size: 1.8rem;
+            color: #00ff00;
+            margin-bottom: 10px;
+        }
+
+        .feature p {
+            color: #b0ffb0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            background: #111;
+            color: #00ff00;
+            font-size: 1.2rem;
+        }
+
+        .social-icons {
+            margin: 20px 0;
+        }
+
+        .social-icons a {
+            margin: 0 15px;
+            color: #00ff00;
+            text-decoration: none;
+            font-size: 2rem;
+        }
+
+        /* Responsive Styles */
+        @media (max-width: 1024px) {
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            .cta-btn {
+                font-size: 1.3rem;
+                padding: 10px 25px;
+            }
+
+            section {
+                padding: 50px 15px;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            .feature {
+                width: 45%;
+            }
+
+            footer {
+                padding: 25px 15px;
+            }
+
+            .social-icons a {
+                font-size: 1.5rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2.2rem;
+            }
+
+            .cta-btn {
+                font-size: 1.2rem;
+                padding: 10px 20px;
+            }
+
+            section {
+                padding: 40px 15px;
+            }
+
+            h2 {
+                font-size: 1.8rem;
+            }
+
+            .feature {
+                width: 100%;
+                margin: 10px 0;
+                padding: 15px;
+            }
+
+            .feature h3 {
+                font-size: 1.6rem;
+            }
+
+            footer {
+                padding: 20px 15px;
+                font-size: 1rem;
+            }
+
+            .social-icons a {
+                font-size: 1.4rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            .cta-btn {
+                font-size: 1rem;
+                padding: 8px 15px;
+            }
+
+            section {
+                padding: 30px 10px;
+            }
+
+            h2 {
+                font-size: 1.6rem;
+            }
+
+            .feature {
+                width: 100%;
+                margin: 15px 0;
+                padding: 10px;
+            }
+
+            .feature h3 {
+                font-size: 1.5rem;
+            }
+
+            footer {
+                padding: 15px 10px;
+                font-size: 0.9rem;
+            }
+
+            .social-icons a {
+                font-size: 1.3rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>ChainTraderX</h1>
+        <p>Your Decentralized Crypto Trading Assistant</p>
+        <button class="cta-btn">Get Started</button>
+    </header>
+
+    <!-- Features Section -->
+    <section>
+        <h2>Features</h2>
+        <div class="feature">
+            <h3>Automated Trading</h3>
+            <p>Set your strategies and let ChainTraderX handle the rest, trading automatically based on real-time signals!</p>
+        </div>
+        <div class="feature">
+            <h3>Decentralized</h3>
+            <p>Your funds never leave your wallet. No centralized authority to trust!</p>
+        </div>
+        <div class="feature">
+            <h3>AI-Powered</h3>
+            <p>ChainTraderX leverages AI (powered by ChatGPT) to give you smart trade suggestions and insights.</p>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section>
+        <h2>How It Works</h2>
+        <p>ChainTraderX trades for you using decentralized protocols and real-time market data. Here's how:</p>
+        <ol>
+            <li>Install the ChainTraderX browser extension.</li>
+            <li>Connect your wallet securely.</li>
+            <li>Set your custom trading strategies.</li>
+            <li>Let ChainTraderX handle the trading automatically!</li>
+        </ol>
+    </section>
+
+    <!-- Call-to-Action Section -->
+    <section>
+        <h2>Ready to Start?</h2>
+        <button class="cta-btn">Download Now</button>
+    </section>
+
+    <!-- Social Media Footer Section -->
+    <footer>
+        <p>Follow us for updates:</p>
+        <div class="social-icons">
+            <a href="#">🔗 Twitter</a>
+            <a href="#">🔗 Telegram</a>
+            <a href="#">🔗 Discord</a>
+        </div>
+        <p>&copy; 2025 ChainTraderX. All Rights Reserved.</p>
+    </footer>
+
+</body>
+
+</html>
